@@ -1,4 +1,10 @@
-SRC += muse.c
+# Build Options
+AUDIO_ENABLE = no
+CONSOLE_ENABLE = no
 EXTRAKEY_ENABLE = no
-MOUSEKEY_ENABLE = no        # Mouse keys(+4700)
-STENO_ENABLE = yes          # Additional protocols for Stenography(+1700), requires VIRTSER
+MIDI_ENABLE = no
+MOUSEKEY_ENABLE = no
+NKRO_ENABLE = yes
+RGBLIGHT_ENABLE = no
+STENO_ENABLE = yes
+VIRTSER_ENABLE = yes
