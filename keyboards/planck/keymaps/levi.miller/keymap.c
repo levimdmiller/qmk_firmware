@@ -43,8 +43,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_PLOVER] = LAYOUT_planck_grid(
       KC_ESC,    STN_N2,     STN_N3,  STN_N4,  STN_N5,       STN_N6,  STN_N7,  STN_N8,  STN_N9,  STN_NA,  STN_NB,  STN_NC,
-      STN_S1,    STN_TL,     STN_PL,  STN_HL,  KC_TAB,       KC_RALT, STN_ST3, STN_FR,  STN_PR,  STN_LR,  STN_TR,  STN_DR,
-      STN_S2,    STN_KL,     STN_WL,  STN_RL,  LSFT(KC_TAB), KC_LGUI, STN_ST4, STN_RR,  STN_BR,  STN_GR,  STN_SR,  STN_ZR,
+      STN_S1,    STN_TL,     STN_PL,  STN_HL,  KC_TAB,       KC_LGUI, STN_ST3, STN_FR,  STN_PR,  STN_LR,  STN_TR,  STN_DR,
+      STN_S2,    STN_KL,     STN_WL,  STN_RL,  LSFT(KC_TAB), KC_RALT, STN_ST4, STN_RR,  STN_BR,  STN_GR,  STN_SR,  STN_ZR,
       XXXXXXX,   XXXXXXX,    KC_LSFT, STN_A,   STN_O,        ADJUST,  STN_E,   STN_U,   KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT
     ),
 
